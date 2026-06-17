@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+### 2. For Splitwise (`digital-heroes-splitwise`)
+Create or replace a file named **`README.md`** in the root of your Splitwise folder and paste this:
 
-First, run the development server:
+```markdown
+# SplitWise Matrix App
 
+An optimized peer-to-peer bill-splitting dashboard application designed to compute financial liabilities instantly, simplify complex group debts, and eliminate manual calculation errors.
+
+## 🚀 Repository & Live Production Links
+- **GitHub Repository:** [https://github.com/Shreyaa310805/digital-heroes-splitwise.git](https://github.com/Shreyaa310805/digital-heroes-splitwise.git)
+- **Live Deployment URL:** [https://digital-heroes-splitwise.vercel.app](https://digital-heroes-splitwise.vercel.app)
+
+## 🛠️ Tech Stack
+- **Frontend Framework:** Next.js / React.js
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks (`useState`, `useMemo`)
+
+## 💡 Key Architectural Implementations
+- **Greedy Debt-Simplification Algorithm:** Utilizes a graph/matrix reduction workflow to balance overall member credit/debit totals, computing the absolute minimum number of transaction transfers required to settle the group safely.
+- **Dynamic Input Fields:** Fully interactive UI modules allowing real-time modification of participants, custom bill values, and localized peer lending tracking.
+- **Responsive Interface:** Structured with fluid grid layouts matching standard mobile and desktop browser screens seamlessly.
+
+## 🏃‍♂️ Local Development
+
+Clone the repository to your machine:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/Shreyaa310805/digital-heroes-splitwise.git](https://github.com/Shreyaa310805/digital-heroes-splitwise.git)
+cd digital-heroes-splitwise
